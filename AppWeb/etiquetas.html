@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport", content="width=device-witdh, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/saludar.js"></script>
+    <script src="js/cargar.js"></script>
+    <title>Mí pagina web</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="etiquetas.html">Etiquetas</a></li>
+                <li><a href="">Formulario</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <h1>Encabezado principal</h1>
+    <h2>Encabezado subsecuente</h2>
+    <h3>Encabezado subsecuente</h3>
+    <p>Etiqueta parrafo</p>
+    <a ref="#">Esto es un enlace o hipervinculo</a>
+
+    <img src="img/Shadow.jpg" alt="Este atributo describe una imagen">
+    <table>
+        <!--Tr define las columnas-->
+
+        <tr>
+            <td>Nombre</td>
+            <td>Apellido</td>
+        </tr>   
+        <tr>
+            <td>Mario</td>
+            <td>Centeno</td>
+        </tr>  
+        <tr>
+            <td>Santiago</td>
+            <td>Amezcua</td>
+        </tr>    
+        <!--td define el contenido de la tabla-->
+
+    </table>
+
+    <form>
+        <!--Label define etiquetas del formulario-->
+        <label>Nombre para:</label>
+        <input type="text">
+
+        <label>Apellido</label>
+        <input type="text">
+
+        <label>Fecha cita</label>
+        <input type="date">
+
+        <label>Hora cita</label>
+        <input type="time">
+    </form>
+
+    <div id="imagen-container">
+        <img id="imagen-api" alt="Imagen cargada desde API" style="display: none;">
+    </div>
+
+    <button id="cargar-imagen-btn" onclick="cargar()">Cargar Imagen</button>
+
+
+</body>
+</html>
